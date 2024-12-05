@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Daily Schedule</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Custom styles can go here if needed */
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="min-h-full w-full">
+        <div class="max-w-2xl mx-auto bg-white shadow-lg rounded-lg overflow-hidden">
+            <div class="bg-blue-600 text-white text-center py-4">
+                <h2 class="text-2xl font-bold">Daily Schedule (24-Hour Format)</h2>
+            </div>
+            <div class="p-4">
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Fajr Prayer">
+                    <div class="w-1/3 font-semibold text-blue-800">05:38 - 06:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🙏</span><span class="text-gray-800">Wake up &amp; Fajr Prayer</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Study Session (Exam preparation)">
+                    <div class="w-1/3 font-semibold text-blue-800">06:00 - 07:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">📚</span><span class="text-gray-800">Study Session (Exam preparation)</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Improve Writing Skills">
+                    <div class="w-1/3 font-semibold text-blue-800">07:00 - 07:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">✍️</span><span class="text-gray-800">Improve Writing Skills</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Breakfast/Light Activity">
+                    <div class="w-1/3 font-semibold text-blue-800">07:30 - 08:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🍳</span><span class="text-gray-800">Breakfast/Light Activity</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Study Session (Focus on important subjects)">
+                    <div class="w-1/3 font-semibold text-blue-800">08:00 - 11:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">📖</span><span class="text-gray-800">Study Session (Focus on important subjects)</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Relax/Break">
+                    <div class="w-1/3 font-semibold text-blue-800">11:30 - 13:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">⏰</span><span class="text-gray-800">Relax/Break</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Dhuhr Prayer & Lunch">
+                    <div class="w-1/3 font-semibold text-blue-800">13:00 - 13:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🙏</span><span class="text-gray-800">Dhuhr Prayer &amp; Lunch</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Study Session (Revision/weak subjects)">
+                    <div class="w-1/3 font-semibold text-blue-800">13:30 - 15:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">📚</span><span class="text-gray-800">Study Session (Revision/weak subjects)</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Asr Prayer">
+                    <div class="w-1/3 font-semibold text-blue-800">15:00 - 15:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🙏</span><span class="text-gray-800">Asr Prayer</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Video Gaming/YouTube Time">
+                    <div class="w-1/3 font-semibold text-blue-800">15:30 - 17:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🎮</span><span class="text-gray-800">Video Gaming/YouTube Time</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Maghrib Prayer">
+                    <div class="w-1/3 font-semibold text-blue-800">17:00 - 17:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🙏</span><span class="text-gray-800">Maghrib Prayer</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Dinner/Relaxation">
+                    <div class="w-1/3 font-semibold text-blue-800">17:30 - 18:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🍽️</span><span class="text-gray-800">Dinner/Relaxation</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Isha Prayer">
+                    <div class="w-1/3 font-semibold text-blue-800">18:30 - 19:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">🙏</span><span class="text-gray-800">Isha Prayer</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Study Session (Review & final preparation)">
+                    <div class="w-1/3 font-semibold text-blue-800">19:00 - 21:00</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">📚</span><span class="text-gray-800">Study Session (Review &amp; final preparation)</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Improve Writing Skills">
+                    <div class="w-1/3 font-semibold text-blue-800">21:00 - 21:30</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">✍️</span><span class="text-gray-800">Improve Writing Skills</span>
+                    </div>
+                </div>
+                <div class="flex items-center border-b border-gray-200 py-3 hover:bg-gray-50 transition-colors" aria-label="Sleep">
+                    <div class="w-1/3 font-semibold text-blue-800">21:30 - 05:38</div>
+                    <div class="flex items-center w-2/3 space-x-3">
+                        <span class="mr-2">😴</span><span class="text-gray-800">Sleep</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
